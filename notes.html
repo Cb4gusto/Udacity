@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+
+    div {
+        border-radius: 2ex;
+        border-style:solid;
+        border-color: white;
+        display: inline-block;
+    }
+
+    img{
+        
+        border-radius: 2ex;
+    }
+
+    #container{
+        border: .5ex;
+        /* border-style: solid; */
+    }
+
+    #header {
+        width: 825px;
+        text-align: left;
+        padding-left: 2ex;
+        background-color: teal;
+        color: white;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    </style>
+</head>
+<body>
+    <div style="width: 500px;">
+        <em>HTML is <b>reasonably straightforward</b></em>
+        <br>
+        This website is <a href="https://www.udacity.com">my favorite</a>
+        <br>
+        <!-- <img src="url" alt="text"> -->
+        <div style="width: 500px;">
+            <div style="float: left;">
+                <img src="https://i.kym-cdn.com/entries/icons/medium/000/024/725/disgusted.jpg" alt="cringe-fest">
+            </div>
+        
+            <div style="float: right;"> 
+                Oh god this looks so rough! <br> We're <strong>"utilizing"</strong> some basic <br> HTML and CSS for formatting
+
+                <p>May or may not be using p tags</p>
+                <p>We're using two lines now!</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    
+    <div id="notes page">
+        <h2>HTML UDACITY NOTES</h2>
+        <div id="lesson 1">
+            <h3>Lesson 1: Basics of the Web</h3>
+            <div id="topic web">
+                <h4>World Wide Web</h4>
+                <p> WWW made up of numberous HTML pages (Hyper Text Markup Language) which is also the main type of document on the web.  </p>
+                <h4>Components of Web</h4>
+                <p>User => Web Browser => Internet => Servers and back. You navigate a webpage in turn your browser makes requests via the Internet to Servers. The request uses HTTP protocol in which the server responds by sending back files that the browser displays </p>
+
+            </div>
+        </div>
+        <div id="lesson 2">
+            <h3>Lesson 2: Basics of HTML Tags</h3>
+            <div id="topic html">
+                <h4>Markup</h4>
+                <p>Markup is how text would look, we manipulate this using elements, these elements are made up of an opening tag, content in the middle and a closing tag. <br>
+                    Make sure to have a closing tag  for those that need it or else the formating will apply to everything after its opening tag.
+                </p>
+                
+                <h4>Basic Tags</h4>
+                <p>Bold, Italic, Links, Paragraph, Break/New Line, Images, Inline v Block/Box Elements, Boxes & Containers, Span & Div, Document Structure <br>
+                < b > Bolded < /b > | < em > Italicized < /em > | < anchor attribute="value/url" > words to show < /anchor > | < p > paragraph < /p > | < br >   <br>
+                <b>Bolded</b> | <em>Italicized</em> | <em><b>Bolded AND Italicized</b></em> |<a href="https://www.stackoverflow.com">A Programmers Best Link</a> | <== All Inline elements 
+                <p style="border: solid; ">Paragraph tags are box elememts as illustrated by using a border as well as invisible top ^ and bottom v margins that create space between other elements</p>
+                <p> < br > tag makes a new line that is invisible, also a void tag</p>
+                <p> Don't forget about images as well with < img src="url" alt="text" > (img is a void tag, doesn't need closing tag)</p>
+            
+                <img src="https://i.imgflip.com/4hrvnm.jpg" height="200" title="Scumbag Programmer Steve"> Images are also inline elements <br><br>
+                <p> < span > < /span > tags create an inline container element, while < div > < /div > tags create a box container element</p>
+            </div>
+
+        </div>
+<br>
+    </div>
+
+    <br><br>
+    <hr>
+
+    <div id="content">
+        <div id="header">
+            <h3>MY FAVORITE PODCASTER</h3>
+        </div>
+        <div id="container" style="width: 835px;">
+
+            <div id="img" style="height: 205px; float: left;">
+                <img src="https://i.ytimg.com/vi/aW4S2nrjBg4/maxresdefault.jpg" height="205" alt="Joe 'I cooked this on a Traeger Grill' Rogan">
+            </div>
+            <div id="description" style="width: 356px; float: right;">
+                Joe Rogan prepped some elk steak on a Traeger Grill, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero quasi iure delectus exercitationem, culpa earum similique inventore quae sunt deleniti voluptates a odio repellendus mollitia, suscipit doloremque recusandae, quibusdam iste. Libero quasi iure delectus exerctionem, culpa earum blaggity blah blah.
+            </div>
+        
+        </div>
+        
+    </div>
+    <br><hr><br><br>
+
+</body>
+</html>
